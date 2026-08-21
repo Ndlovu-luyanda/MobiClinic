@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.header {
+    position: fixed;
+    top: 10px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 28px;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+    padding: 8px 20px;
+    height: 55px;
+    border-radius: 30px;
+}
+
+.brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.brand-title {
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+.logo {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 0;
+}
+
+.nav-main,
+.nav-auth {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-auth {
+    margin-left: 28px;
+    padding-left: 20px;
+    border-left: 1px solid #d9dee5;
+}
+
+.list a {
+    color: #1f2937;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.list a:hover {
+    color: #206efe;
+}
+
+
+.btn-signup, .btn-login {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.5rem;
+    font-weight: 500;
+    padding: 6px 12px;
+    border-radius: 15px;
+    border: 1px solid #d9dee5;
+    cursor: pointer;
+}
+
+.btn-signup {
+    background-color: #90eafc;
+}
+
+.btn-login{
+     background-color: #5b90f2;
+}
