@@ -1,0 +1,21 @@
+.h1{
+    padding-top: 20px;
+    font-size: 1rem;
+    font-weight: semi-bold;
+}
+
+.benefit-container{
+    display: flex;
+   text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.benefit-row{
+   padding-top: 30px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
